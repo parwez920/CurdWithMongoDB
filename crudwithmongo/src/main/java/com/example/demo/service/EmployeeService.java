@@ -7,6 +7,7 @@ import com.example.demo.domain.Employee;
 import com.example.demo.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
+	
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	public void saveEmployeeRecord(Employee employee) {
