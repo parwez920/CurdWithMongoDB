@@ -24,5 +24,7 @@ public class BaseModel {
 	private Date modifiedDate;
 
 	private boolean isActive;
+	
+	
 
 }
